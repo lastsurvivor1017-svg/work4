@@ -595,7 +595,7 @@
 .uunder1 {
   width: 100%;
   height: 25%;
-  background-color: #464646;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -605,13 +605,12 @@
 .uunder2 {
   width: 100%;
   height: 74%;
-  background-color: #3DB846;
+  display: flex;
 }
 
 .uunders1 {
   width: 60%;
   height: 100%;
-  background-color: #464646;
   font-size: 25px;
   display: flex;
   gap: 20px;
@@ -625,7 +624,7 @@
   width: 80%;
   padding: 16px;
   border-radius: 20px;
-  background-color: #AAAAAA;
+  background: linear-gradient(#AAAAAA, rgba(255, 255, 255, 0));
 }
 
 .btn2 {
@@ -635,6 +634,34 @@
   background-color: #437D2B;
   border: none;
   color: white;
+}
+
+.uunders2 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.uunder2 h1 {
+  font-weight: 200;
+  text-align: center;
+}
+
+.div1 {
+  display: flex;
+  gap: 15px;
+}
+
+.div1 h4 {
+  font-weight: 200;
+}
+
+.div1 h2 {
+  font-weight: 200;
 }
 
 @media (max-width: 510px) {
@@ -824,5 +851,30 @@
   .h6h {
     text-align: start;
     width: 400px;
+  }
+  .end {
+    height: 1800px;
+    width: 93%;
+    margin: auto;
+    display: flex;
+    align-items: start;
+  }
+  .uunder {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .uunder2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .uunders1 {
+    width: 100%;
+  }
+  .uunders2 {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
