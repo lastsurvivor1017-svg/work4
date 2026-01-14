@@ -250,6 +250,97 @@
   font-size: 13px;
 }
 
+.central {
+  height: 600px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.underr {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.underr button {
+  padding: 15px 27px;
+  font-size: 15px;
+  border-radius: 25px;
+  height: 55%;
+  background: linear-gradient(#437D2B);
+  border: none;
+  color: white;
+}
+
+.underr1 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemm {
+  width: 24%;
+  height: 100%;
+  border-radius: 25px;
+  background-image: url(./__page-0037\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.itemm1 {
+  width: 48%;
+  height: 100%;
+  border-radius: 25px;
+  background-image: url(./Image-04-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.itemm2 {
+  width: 24%;
+  height: 100%;
+  border-radius: 25px;
+  background-image: url(./Image-04-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.itemms1 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.itemms1 p {
+  font-size: 20px;
+  color: #5E4520;
+}
+
+.central1 {
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-image: url(./Видео.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn1 {
+  margin-top: 20px;
+  display: none;
+}
+
 @media (max-width: 510px) {
   .item {
     display: none;
@@ -348,5 +439,41 @@
   .itemss12 {
     width: 100%;
     height: 51%;
+  }
+  .underr button {
+    display: none;
+  }
+  .underr h1 {
+    width: 330px;
+  }
+  .itemm {
+    display: none;
+  }
+  .itemm2 {
+    display: none;
+  }
+  .central {
+    height: 700px;
+  }
+  .itemm1 {
+    width: 100%;
+  }
+  .central1 {
+    height: 285px;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+  }
+  .btn1 {
+    display: block;
+    margin-top: 10px;
+    margin: auto;
+    width: 90%;
+    padding: 20px 30px;
+    border-radius: 17px;
+    background-color: #437D2B;
+    font-size: 30px;
+    border: none;
+    color: white;
   }
 }/*# sourceMappingURL=style.css.map */
